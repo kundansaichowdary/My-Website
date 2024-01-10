@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Kundan-Sai-Chowdary-Sannapaneni" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kundan Sai Chowdary Sannapaneni">Kundan Sai Chowdary Sannapaneni</h1>
+
+          
+          <p></p>
+
+          <p class="title">     AI - Data Science Enthusiast   </p>
+        </div>
+      
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kundansaichowdary@gmail.com" class="contact-link">kundansaichowdary@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel: +1 7202090719" class="contact-link">+1 7202090719</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-03-05">March 5, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Boulder, CO, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+
+
+
+
+      <!--
+        - HAVE TO CHANGE LINKS
+      -->
+
+
+
+
+
+      
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kundan-sai-chowdary-sannapaneni-28422425a/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://bit.ly/GitHub_kc" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/the.onlykc/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A programmer with an ardent passion for Machine Learning and Data Science.
+To develop my talents & knowledge and learn more about my subject of study, I have worked on a numerous impactful projects, several internships. I continue to fervently learn about relevant topics while actively working and learning in the field of AI-ML; Data Science and its derivatives.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Masters</h4>
+
+                <p class="service-item-text">
+                  Pursuing a Master of Science in Data Science at the University of Colorado Boulder, focusing on leveraging advanced analytical techniques and machine learning models to extract insights from big data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Projects</h4>
+
+                <p class="service-item-text">
+                  Consistently working on AI & ML projects and internships and deploying them relevant to the field, all of which could be viewed on the projects section.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Open Source</h4>
+
+                <p class="service-item-text">
+                  Contributed to open source organisations and communities well as developed open-source solutions for competitions and student developer hackathons.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/db.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Travelling</h4>
+
+                <p class="service-item-text">
+                  My passion for travel has taken me to incredible places, fueling my motivation and bringing excitement to my work and life. Every new destination adds a thrilling chapter to my journey. :)
+                </p>
+              </div>
+
+            </li>
+          
+
+          </ul>
+
+        </section>
+
+
+
+        
+          
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">References</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Aravindan.png" alt="Aravindan" height="85" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Dr. C Aravindan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    HoD, Dept of Information Technology,  <br> 
+                    SSN College of Engineering Chennai, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Joe.jpeg" alt="Joe Louis Paul I" height="85" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. I. Joe Louis Paul</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dept of Information Technology,  <br> 
+                    SSN College of Engineering Chennai, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/bhalaji.png" alt="Dr. N. Bhalaji" height="85" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. N. Bhalaji</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Principal, Rajalakshmi Institute of Technology, <br> Chennai, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/amita.jpeg" alt="Amita Jain" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Amita Jain</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Founder Director, Trivium  <br>Maharashtra, India.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+           
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+       </section>
+  
+          </div>
+        
+        <!--
+          - clients
+        -->
+
+
+
+        
+        
+
+        <section class="clients">
+              <h3 class="h3 testimonials-title">Current and past affiliations</h3>
+              <h6 class="h6 service-item-title">The organisations, institutes, and programs I am currently working for (or under/on), or have worked for in the past.</h6> 
+              
+              <ul class="clients-list has-scrollbar">
+                <div>
+                 <img src="./assets/images/CuB.jpeg" height="100" width="120"  alt="client logo">   
+                  <h6 class="h6 service-item-title">University of Colorado Boulder       </h6> 
+                </div>
+              <div>
+                <img src="./assets/images/IITM.png" height="100" width="120" alt="client logo">  
+                <h6 class="h6 service-item-title">Indian Institute of Technology Madras </h6>
+              </div>
+              <div>
+                <img src="./assets/images/ssn.png" height="100" width="120" alt="client logo">  
+                <h6 class="h6 service-item-title">SSN College of Engineering</h6>
+              </div>
+              <div>
+                <img src="./assets/images/googleC.png" height="100" width="120" alt="client logo">  
+                <h6 class="h6 service-item-title">Google + Coursera</h6>
+              </div>
+          </ul>
+
+        </section>
+        
+
+      </article>
+
+
+        <!--
+            - #RESUME
+          -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <!-- Open the PDF in a New Tab -->
+          <a href="resume.pdf" target="_blank">
+            <button><h3 class="h3 skills-title">Click here to Open Resume</h3></button>
+          </a>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header> </header>
+        <header>
+          <h2 class="h2 article-title"></h2>
+          <h2 class="h2 article-title">Projects & Research</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning & Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning & Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item><id="test">Full Stack</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning" >
+              <a href="https://www.google.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/BTS.png" height="300" width="200" alt="Brain Tumor Segemnetation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brain Tumor Segmentation</h3>
+
+                <p class="project-category">Machine Learning, Deep learning, Brain Tumor Research</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://www.google.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/etl.png" height="300" width="200" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Automated ETL Data Pipeline</h3>
+
+                <p class="project-category">Automation, Big Data, Industry deployed </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full stack">
+              <a href="https://www.google.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ngo.png" height="300" width="200" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NGO Management Application</h3>
+
+                <p class="project-category">Web Development, MERN Stack </p>
+
+              </a>
+            </li>
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certifications
+      -->
+
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+
+            
+
+
+
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/HJGZRSN8MPHW", target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/gdaC.jpeg" alt="Google Data Analytics" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Coursera</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-03">JUN, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Google Data Analytics</h3>
+
+          
+
+                </div>
+
+              </a>
+              </li>
+
+
+              <li class="blog-post-item">
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/HJGZRSN8MPHW">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/snowflake.png" alt="Snowflake" loading="lazy">
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <div class="blog-meta">
+                      <p class="blog-category">Udemy</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">NOV, 2023</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Snowflake – The Complete Masterclass</h3>
+  
+  
+                  </div>
+  
+                </a>
+                </li>
+
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1000&amp;height=400&amp;hl=en&amp;q=boulder&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+
+                </iframe>
+              
+              </div><style>.mapouter{position:relative;text-align:right;width:1000px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:1000px;height:400px;}.gmap_iframe {width:1000px!important;height:400px!important;}</style></div>
+
+
+              
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xgejyvgb" method="POST">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Your Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Your Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
