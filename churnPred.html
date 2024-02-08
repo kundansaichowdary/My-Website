@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Project</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+
+    .main {
+    margin: 15px 12px;
+    margin-bottom: 75px;
+    min-width: 259px;
+}
+
+    Projectmain {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+  }
+
+  .Projectmain-content {
+    min-width: 105%;
+    width: 100%;
+  }
+  #PT{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 0px ;
+  }
+  .proImg{
+    margin: 30px 150px 10px 30px;
+    border-radius: 10px;
+    height: 350px;
+    width: 750px;
+  }
+  </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="h2" id="PT">Advanced Banking Customer Churn Prediction</h1>
+      </header>
+
+  <main>
+
+
+
+      <div class="sidebar-info">
+
+
+        <!-- <div class="info-content">
+          <h1 class="name" title="Kc">Project Title yet to be decided</h1>
+
+          
+          <p></p>
+
+          <p class="title">     Machine Learning Project  </p>
+        </div>
+       -->
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+       
+
+       
+
+</div>
+
+
+
+      <!--
+        - HAVE TO CHANGE LINKS
+      -->
+
+
+
+
+<!-- 
+ <div class="separator"></div>  -->
+
+    <!--
+      - #main-content
+    -->
+   
+    <div class="main-content">
+
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Introduction</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>DataPrep_EDA</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Algorithms</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Conclusion</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="introduction">
+
+        <header>
+          <h2 class="h2 article-title">Introduction</h2>
+        </header>
+
+        <section class="about-text">
+          
+          <p>  In the rapidly evolving landscape of digital banking, where intense competition is the norm, mastering customer retention becomes a critical challenge for financial institutions. It is not merely a measure of success but a vital component of their survival and growth strategies. Recognizing the importance of this issue, a comprehensive analysis was undertaken to explore the underlying factors of customer attrition within the banking sector. The aim is to harness sophisticated machine learning and data analytics to predict the likelihood of customers leaving their bank in the near future. This endeavor goes beyond mere prediction; it seeks to offer actionable insights to aid in developing effective retention strategies. </p>
+
+          <p>  The project was initiated against the backdrop of significant challenges faced by financial entities in the digital age, with a focus on enhancing customer retention and reducing churn rates. Insights were collated from individuals with direct experience in the banking industry and experts passionate about the analytics of predicting customer churn. This amalgamation of diverse viewpoints has significantly informed the project's strategic direction. </p> 
+            
+         
+          
+          <img class="proImg" src="projectImages/introImage.png" alt="Intro Image">
+          
+        </section>
+
+        <header>
+          <h2 class="h2 article-title">State of the art</h2>
+        </header>
+
+        <section class="about-text">
+          <p> In the digital banking sector, the fight against customer churn has been significantly advanced by the integration of sophisticated machine learning technologies. Deep learning, ensemble methods like Random Forests and Gradient Boosting Machines, and clustering techniques such as K-means have become pivotal in uncovering complex customer behavior patterns and segmenting the customer base for tailored retention strategies. These models are complemented by automated feature engineering, which efficiently extracts predictive insights from extensive datasets, and Explainable AI (XAI), which offers a deeper understanding of churn drivers. Real-time analytics further empower banks to act swiftly in mitigating churn risks, facilitating a proactive approach to customer retention. </p> 
+
+          <p> Moreover, the inclusion of external data sources enriches predictive models with broader contextual insights, enhancing accuracy. As banks navigate the intricacies of digital customer engagement, regulatory and ethical considerations, particularly around data privacy and ethical AI usage, remain at the forefront of strategic planning. This dual focus on cutting-edge analytical techniques and ethical compliance underscores the banking industry's commitment to leveraging technological advancements for improved customer loyalty, setting new standards for personalized banking experiences in an increasingly competitive landscape. </p>
+         
+        </section>
+
+       
+        <header>
+            <h2 class="h2 article-title">Objective</h2>
+          </header>
+  
+          <section class="about-text">
+            <p>  The primary objective is to establish a robust predictive model capable of identifying customers at the highest risk of churning in the near term. The ambition extends beyond simple predictions to a thorough analysis and interpretation of the data to reveal the key drivers of customer churn. These insights are deemed crucial for empowering banks with the knowledge and strategies to not only retain customers but also to foster deeper loyalty and satisfaction. Ultimately, the project is geared towards enabling banks to proactively engage with their customer base, using predictions and insights to formulate and implement effective retention strategies in the competitive domain of digital banking. </p> 
+            <img class="proImg" src="projectImages/churnImage.png" alt="Churn Image">
+          </section>
+
+  
+          <header>
+            <h3 class="h3 article-title">Questions that I intend to investigate by the end of the project:</h3>
+          </header>
+  
+          <section class="about-text">
+            <p>
+     <ol>
+      <li>1. What demographic characteristics (age, gender, education level) most significantly influence a customer's decision to leave the bank? </li>
+      <li>2. How does marital status and the number of dependents affect customer loyalty and churn rates?</li>
+      <li>3. Can we predict customer churn based on account information such as months on book and credit limit?</li>
+      <li>4. What impact do behavioral metrics (e.g., months inactive, contact count in the last 12 months) have on predicting customer attrition?</li>
+      <li>5. How does the utilization ratio correlate with customer satisfaction and retention?</li>
+      <li>6. Can association rule mining uncover common pathways or triggers leading to customer churn?</li>
+      <li>7. What are the most significant factors that contribute to a customer becoming inactive or reducing their transaction activity?</li>
+      <li>8. Is there a relationship between the change in transaction count from Q4 to Q1 and the likelihood of customer attrition?</li>
+      <li>9. How does the use of different card categories (Blue, Silver, Gold, Platinum) relate to customer loyalty and attrition rates?</li>
+      <li>10. Can a pattern of transactions (total transaction amount, total transaction count) predict upcoming customer churn?</li>
+     </ol>
+            
+          </section>
+          
+
+
+
+
+
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+       </section>
+  
+          </div>
+        
+        <!--
+          - clients
+        -->
+
+
+
+        
+        
+
+
+
+      </article>
+
+
+        <!--
+            - #RESUME
+          -->
+
+        <article class="resume" data-page="dataprep_eda">
+
+
+
+          <header>
+            <h2 class="h3 article-title">API</h2>
+          </header>
+          <section class="about-text">
+            <p><b>Raw data from Newsapi.org :</b> <a style="display: inline;" target="_blank" href="https://newsapi.org/v2/everything?q=bank+customer+churn+data&apiKey=your_api_key">https://newsapi.org/v2/everything?q=bank+customer+churn+data&apiKey=your_api_key</a>
+            </p>
+           
+            <img class="proImg" src="projectImages/rawApiData.png" alt="Raw Api Data">
+            <p>
+              In this area of project, the process began with fetching data from NewsAPI, aiming to analyze trends and insights on customer churn and retention strategies from a collection of news articles. The data, initially in JSON format, contained detailed attributes such as the source, author, title, description, publication date, and content of each article.
+            </p>
+              <p>
+              The raw JSON data was then transformed into a pandas DataFrame. This step was critical as it facilitated easier manipulation and analysis of the data, leveraging the capabilities of pandas for efficient data handling and operations.
+              </p>
+              <p>
+                Following the transformation, the data underwent a cleaning and preprocessing phase. Key steps in this process included:
+                <ol>
+                  <li> 1. Converting the `publishedAt` field from a string format to a datetime object, enabling time-based sorting and analysis.</li>
+                  <li> 2. Filling missing values in the `author` column with 'Unknown' to ensure the dataset was complete and consistent, avoiding potential biases in analysis due to missing information.</li>
+                  <li> 3. Extracting the `name` attribute from the nested `source` dictionary for each article and placing it in a new `source_name` column. This step flattened the dataset's structure, removing the original `source` column to streamline the data further.</li>
+                </ol>
+              </p>
+              <p><b>Cleaned Api data :</b></p>
+              <img class="proImg" src="projectImages/cleanedApiData.png" alt="Cleaned Api Data">
+
+              <p><b>Access to the Code :</b> <a style="display: inline;" target="_blank" href="https://colab.research.google.com/drive/1SaeUmRwAM2lZYH8MlScEAgrFYAQyGXgh?usp=sharing">Colab Link</a>
+              </p>
+            
+          </section>
+          
+          
+              <header>
+                <h2 class="h3 article-title">Dataset Overview</h2>
+              </header>
+              <section class="about-text">
+                <p>
+                  The dataset, sourced from <a style="display: inline-grid;" href="https://leaps.analyttica.com/home">https://leaps.analyttica.com/home</a>, encompasses detailed records of 10,000 bank customers, shedding light on various aspects such as age, salary, marital status, credit card limit, and card category, among others. With close to 20 features, it provides a holistic view of the banking institution's clientele, particularly focusing on credit card users. The primary challenge highlighted by this dataset is the skewed distribution of churned customers, who represent only 16.07% of the total, posing difficulties in training predictive models due to the imbalance.
+                </p>
+
+                <p>
+                  This dataset encapsulates a comprehensive view of customer profiles within a banking institution, capturing demographic information, financial behaviors, and engagement levels. The variety of features included allows for an in-depth analysis of factors influencing customer loyalty and churn. Leveraging machine learning algorithms, the dataset not only facilitates the prediction of customer attrition but also aids in devising targeted retention strategies. Its structure is conducive to both exploratory data analysis and predictive modeling, making it an invaluable resource for enhancing customer retention efforts in the banking sector.
+                </p>
+                <img class="proImg" src="projectImages/dataAtt.png" alt="Data Attributes">
+                <p style="text-align: center;">Table.1 provides an overview of each variable within the dataset</p>
+      
+              </section>
+             
+              <header>
+                <h2 class="h3 article-title">Exploratory Data Analysis</h2>
+              </header>
+              <section class="about-text">
+                <p>
+                  Exploratory Data Analysis (EDA) plays a crucial role in the data science field, acting as an initial step to uncover patterns, detect anomalies, identify significant variables, and test hypotheses. EDA provides valuable insights that inform the later stages of analysis, enabling data-driven decision-making based on a comprehensive understanding of the dataset's features and relationships. In this project, an in-depth EDA was performed on a banking dataset, focusing on customer demographics such as age, gender, education level, marital status, and income category, alongside banking behavior metrics including credit limits, revolving balances, transaction volumes, and frequencies. Through a variety of visualizations, including histograms, count plots, and density plots, the project effectively visualized data distributions and relationships, undertook data cleaning by imputing missing values, and prepared the dataset for further analysis by encoding categorical variables. This meticulous exploratory process ensures that subsequent predictive modeling and strategic decisions are based on a nuanced and detailed understanding of the underlying data.
+                </p>
+              </section> 
+                
+                  <h2 class="h3 service-title">Visualisations</h2>
+               
+
+                <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 1: Distribution of Customer Age</h4>
+                  <img class="proImg" src="projectImages/v1.png" alt="Visualisation-1">
+                  <p>
+                    Observations:
+                    <ol>
+
+                    <li> - <b>Distribution Shape:</b> The 'Customer_Age' histogram appears to be fairly symmetrical, suggesting a normal-like distribution.</li>
+                    <li> - <b>Central Tendency:</b> The age of customers clusters around the mid-40s, indicating this is the most common age group in the dataset.</li>
+                    <li> - <b>Spread: </b> The age range extends from the mid-20s to early 70s, with a concentration of data points in the 40-55 age range.</li>
+                    <li> - <b>Outliers: </b>There do not appear to be any significant outliers, as the distribution tails off smoothly at both ends.</li>
+                    <li> - <b>Overall Interpretation: </b>The customer base seems to be middle-aged, with a balanced age distribution. This might reflect a broad appeal of the bank's services across different age groups.</li>
+                    </ol> 
+                </p>
+                </section> 
+
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 2: Gender Distribution</h4>
+                  <img class="proImg" src="projectImages/v2.png" alt="Visualisation-2">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution:</b> The graph illustrates the gender distribution of customers, categorized as 'M' (Male) and 'F' (Female).</li>
+                  <li> - <b>Gender Ratio:</b> There is a slight predominance of female customers compared to male customers in the dataset.</li>
+                  <li> - <b>Balance: </b> While not perfectly balanced, the gender distribution is relatively even, indicating a diverse customer base in terms of gender.</li>
+                  <li> - <b>Implications for Analysis: </b>The relatively balanced gender distribution is beneficial for analyses that might be sensitive to gender proportions, such as customer behavior studies or targeted marketing strategies.</li>
+                  <li> - <b>Overall Interpretation: </b>The distribution suggests that the bank’s customer base is quite diverse in terms of gender, which might reflect the bank's broad appeal across different gender demographics.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 3: Education Level Distribution</h4>
+                  <img class="proImg" src="projectImages/v3.png" alt="Visualisation-3">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution:</b> The graph shows a variety of education levels among the bank's customers, with a significant portion having achieved a graduate level education.</li>
+                  <li> - <b>Common Education Levels:</b> High School and Graduate are common, indicating a broad range of educational backgrounds.</li>
+                  <li> - <b>Variation: </b> Noticeable decrease in frequency beyond the Graduate level, with fewer customers holding post-graduate qualifications.</li>
+                  <li> - <b>Overall Interpretation: </b>The diverse educational background of customers may influence their banking needs and preferences.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 4: Marital Status Distribution</h4>
+                  <img class="proImg" src="projectImages/v4.png" alt="Visualisation-4">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution:</b> The graph presents the marital status of customers, revealing a mix of single, married, and divorced individuals.</li>
+                  <li> - <b>Most Common Status:</b> Married status is the most common, suggesting that a significant portion of the customer base may have joint financial interests or family-oriented financial needs.</li>
+                  <li> - <b>Variation: </b> Single and Divorced statuses are less common but represent a notable segment of the customer base.</li>
+                  <li> - <b>Overall Interpretation: </b>Understanding the marital status distribution can help the bank tailor its products and services to meet the needs of different life stages.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 5: Income Category Distribution</h4>
+                  <img class="proImg" src="projectImages/v5.png" alt="Visualisation-5">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution:</b> Displays the income categories of customers, indicating the economic diversity within the bank's customer base.</li>
+                  <li> - <b>Income Range:</b> Spans from Less than \$40K to \$120K+, with a significant number of customers in the lower income brackets.</li>
+                  <li> - <b>Skewness: </b> The distribution is skewed towards lower income categories, suggesting the bank serves a wide range of economic demographics.</li>
+                  <li> - <b>Overall Interpretation: </b> The income distribution provides insights into the financial positioning of customers, which can inform targeted marketing and service development.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 6: Card Category Distribution</h4>
+                  <img class="proImg" src="projectImages/v6.png" alt="Visualisation-6">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution:</b> Highlights the types of cards customers use, such as Blue, Silver, Gold, and Platinum.</li>
+                  <li> - <b>Card Preferences:</b> A vast majority opt for the Blue card, with progressively fewer customers using the more premium card types.</li>
+                  <li> - <b>Skewness: </b> The distribution is highly skewed towards the Blue card, indicating a preference for basic card services.</li>
+                  <li> - <b>Overall Interpretation: </b> The bank's customer base predominantly prefers the Blue card, which may suggest a focus on essential card services or a potential opportunity to promote premium cards.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 7: Months on Book Distribution</h4>
+                  <img class="proImg" src="projectImages/v7.png" alt="Visualisation-7">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The histogram shows a bell-shaped distribution centered around a medium-term relationship duration with the bank.</li>
+                  <li> - <b>Central Tendency:</b> The aggregation of data points around the middle of the range indicates that the average customer has been with the bank for a moderate duration.</li>
+                  <li> - <b>Spread: </b> The distribution spans a broad range, from new clients to those with longstanding relationships.</li>
+                  <li> - <b>Outliers: </b> There are few to no extreme values, suggesting that customers do not significantly deviate from the average relationship duration.</li>
+                  <li> - <b>Overall Interpretation: </b> The bank has a stable customer base, with most customers maintaining their relationship for a similar period, possibly reflecting satisfaction with the bank's services.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 8: Total Relationship Count Distribution</h4>
+                  <img class="proImg" src="projectImages/v8.png" alt="Visualisation-8">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The count plot reveals a high frequency of customers with three to four product relationships with the bank.</li>
+                  <li> - <b>Central Tendency:</b> The most common relationship counts suggest that the average customer engages with multiple services.</li>
+                  <li> - <b>Spread: </b>  A decreasing frequency for higher relationship counts may indicate fewer cross-selling successes for additional products.</li>
+                  <li> - <b>Outliers: </b> There are no apparent outliers, reflecting a standard customer engagement level.</li>
+                  <li> - <b>Overall Interpretation: </b> The bank’s customers tend to engage with several products, indicating opportunities for increasing product penetration and cross-selling.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 9: Attrition Flag Distribution</h4>
+                  <img class="proImg" src="projectImages/v9.png" alt="Visualisation-9">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The plot shows a large disparity between existing and attrited customers, with existing customers far outnumbering those who have left.</li>
+                  <li> - <b>Central Tendency:</b> The high count of existing customers suggests successful customer retention strategies.</li>
+                  <li> - <b>Spread: </b>  The low number of attrited customers indicates that customer churn is relatively uncommon.</li>
+                  <li> - <b>Outliers: </b> The distribution lacks significant outliers, suggesting a stable customer base.</li>
+                  <li> - <b>Overall Interpretation: </b> The bank has been effective in maintaining its customer base, although the presence of attrited customers points to areas where retention efforts can be improved.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 10: Credit Limit Distribution</h4>
+                  <img class="proImg" src="projectImages/v10.png" alt="Visualisation-10">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The distribution of 'Credit_Limit' is right-skewed, indicating that a majority of customers have lower credit limits, while a smaller number have significantly higher limits.</li>
+                  <li> - <b>Central Tendency:</b> The mean credit limit is higher than the median, which is pulled up by high-value outliers.</li>
+                  <li> - <b>Spread: </b>  The credit limits range broadly from low to very high values, suggesting diverse financial standings among customers.</li>
+                  <li> - <b>Outliers: </b> High-value outliers are present, indicating some customers with exceptionally high credit limits.</li>
+                  <li> - <b>Overall Interpretation: </b> The bank serves customers with varying credit needs, from those with modest credit requirements to those with substantial credit lines.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 11: Total Revolving Bal Distribution</h4>
+                  <img class="proImg" src="projectImages/v11.png" alt="Visualisation-11">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The 'Total_Revolving_Bal' has a multimodal distribution, with several peaks indicating common balance levels.</li>
+                  <li> - <b>Central Tendency:</b> The presence of multiple peaks affects the mean and median, which may not accurately represent the most common balance levels.</li>
+                  <li> - <b>Spread: </b> The balances range widely, with many customers maintaining low revolving balances.</li>
+                  <li> - <b>Outliers: </b> Some customers have very high revolving balances, but they are not excessively distant from the rest of the data.</li>
+                  <li> - <b>Overall Interpretation: </b> Customers exhibit diverse usage of revolving credit, with a significant number either paying off their balances or not using their credit regularly.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 12: Avg Open To Buy Distribution</h4>
+                  <img class="proImg" src="projectImages/v12.png" alt="Visualisation-12">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The 'Avg_Open_To_Buy' distribution is right-skewed, with many customers having lower amounts of unused credit.</li>
+                  <li> - <b>Central Tendency:</b> The mean is notably higher than the median, reflecting the skewness of the distribution.</li>
+                  <li> - <b>Spread: </b> There is a wide range of 'Avg_Open_To_Buy' values, with some customers having very high amounts of available credit.</li>
+                  <li> - <b>Outliers: </b> Customers with exceptionally high 'Avg_Open_To_Buy' values are present, likely due to high credit limits or conservative credit use.</li>
+                  <li> - <b>Overall Interpretation: </b> Most customers maintain lower levels of unused credit, but a segment has significantly higher credit availability.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 13: Total Transaction Amount Distribution</h4>
+                  <img class="proImg" src="projectImages/v13.png" alt="Visualisation-13">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The 'Total_Trans_Amt' distribution is right-skewed, indicating that most customers have lower transaction amounts.</li>
+                  <li> - <b>Central Tendency:</b> The mean transaction amount is higher than the median, influenced by customers with higher transaction volumes.</li>
+                  <li> - <b>Spread: </b> The transaction amounts vary widely, with some customers having very high total transaction amounts.</li>
+                  <li> - <b>Outliers: </b> There are outliers with very high transaction amounts, potentially reflecting a small group of customers with high spending.</li>
+                  <li> - <b>Overall Interpretation: </b> While most customers have modest transaction volumes, a subset engages in more significant spending.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 14: Total Transaction Count Distribution</h4>
+                  <img class="proImg" src="projectImages/v14.png" alt="Visualisation-14">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The 'Total_Trans_Ct' distribution is somewhat bimodal, indicating common transaction count ranges.</li>
+                  <li> - <b>Central Tendency:</b> The mean and median are closely aligned, suggesting a balanced distribution around the central transaction counts.</li>
+                  <li> - <b>Spread: </b> The transaction counts are varied, reflecting diverse transaction behaviors among customers.</li>
+                  <li> - <b>Outliers: </b> There are no significant outliers; most transaction counts fall within a typical range.</li>
+                  <li> - <b>Overall Interpretation: </b> The distribution points to two distinct customer groups based on transaction frequency, indicating different patterns of bank usage.</li>
+                  </ol> 
+              </p>
+              </section>
+              
+              
+              <section class="about-text">
+                  <h4 class="h4 service-title">Visualization 15: Avg Utilization Ratio Distribution</h4>
+                  <img class="proImg" src="projectImages/v15.png" alt="Visualisation-15">
+                  <p>
+                  Observations:
+                  <ol>
+              
+                  <li> - <b>Distribution Shape:</b> The 'Avg_Utilization_Ratio' distribution is bimodal, with peaks at lower and higher utilization ratios.</li>
+                  <li> - <b>Central Tendency:</b> Both the mean and median are influenced by the two distinct peaks in the distribution.</li>
+                  <li> - <b>Spread: </b> The utilization ratio ranges from 0 to just under 1.0, highlighting varying credit use levels among customers.</li>
+                  <li> - <b>Outliers: </b> No significant outliers are observed, with most values within a standard range for utilization ratios.</li>
+                  <li> - <b>Overall Interpretation: </b> The customer base is divided into two - segments: those who use a low proportion of their credit and those with higher utilization, indicating different credit management behaviors.</li>
+                  </ol> 
+              </p>
+              </section>
+                
+            </section>
+
+            <section class="about-text">
+                <h4 class="h4 service-title">Visualization 16: Heatmap of Correlation Matrix</h4>
+                <img class="proImg" src="projectImages/v16.png" alt="Visualisation-16">
+                <p>
+                Observations:
+                <ol>
+            
+                    <li> - <b>Visualization:</b> The heatmap offers a comprehensive view of the correlations between all numerical variables in the dataset. The color intensity represents the strength and direction of the correlation, with warmer colors indicating positive correlations and cooler colors showing negative correlations.</li>
+                    <li> - <b>Insight: </b> This allows us to quickly identify which pairs of variables are most strongly correlated, aiding in the identification of potential relationships or redundancies within the dataset.</li>
+                </ol> 
+            </p>
+            </section>
+            
+            <section class="about-text">
+                <h4 class="h4 service-title">Visualization 17: Total Trans Amount by Age Group </h4>
+                <img class="proImg" src="projectImages/v17.png" alt="Visualisation-17">
+                <p>
+                Observations:
+                <ol>
+            
+                <li> - <b>Visualization:</b> The violin plot also categorizes customers by age and visualizes the distribution of total transaction amounts for each group, combining aspects of box plots with a kernel density estimation.</li>
+                <li> - <b>Insight: </b> This provides a more nuanced view of the total transaction amounts across age groups, showing not only the central tendency and variability but also the distribution shape. It can reveal, for example, if certain age groups have more uniform spending patterns or if there are subgroups within the ages that behave differently.</li>
+                </ol> 
+            </p>
+            </section>
+            
+            <section class="about-text">
+                <h4 class="h4 service-title">Visualization 18: Customer Age and Months on Book </h4>
+                <img class="proImg" src="projectImages/v18.png" alt="Visualisation-18">
+                <p>
+                Observations:
+                <ol>
+            
+                <li> - <b>Visualization:</b> A scatterplot showcasing the relationship between 'Customer Age' and 'Months on Book', highlighted in royal blue for easy visualization.</li>
+                <li> - <b>Insight: </b> Demonstrates a positive linear correlation, indicating older customers tend to have longer relationships with the bank. This suggests loyalty increases with age, providing valuable information for customer retention strategies.</li>
+                </ol> 
+            </p>
+            </section>
+            
+            <section class="about-text">
+                <h4 class="h4 service-title">Visualization 19: Credit Limit and Avg Open To Buy </h4>
+                <img class="proImg" src="projectImages/v19.png" alt="Visualisation-19">
+                <p>
+                Observations:
+                <ol>
+            
+                <li> - <b>Visualization:</b> Scatterplot displaying the relationship between 'Credit Limit' and 'Avg Open To Buy', marked in vibrant orange.</li>
+                <li> - <b>Insight: </b> Reveals a strong positive correlation, indicating that customers with higher credit limits generally have more available credit. This relationship underscores the financial behavior of customers and can guide credit management policies.</li>
+                </ol> 
+            </p>
+            </section>
+            
+            <section class="about-text">
+                <h4 class="h4 service-title">Visualization 20: Total Trans Amount and Total Trans Ct </h4>
+                <img class="proImg" src="projectImages/v20.png" alt="Visualisation-20">
+                <p>
+                Observations:
+                <ol>
+            
+                <li> - <b>Visualization:</b> A scatterplot illustrating the relationship between 'Total Transaction Count' and 'Total Transaction Amount', in a distinct sea green.</li>
+                <li> - <b>Insight: </b> Shows a very strong positive correlation, suggesting that an increase in the number of transactions correlates with an increase in the total amount spent. This insight is crucial for identifying highly engaged customers and tailoring marketing strategies to boost transaction activities.</li>
+                </ol> 
+            </p>
+            </section>
+
+                
+              
+              <header>
+                <h2 class="h3 article-title">Data Preprocessing and Cleaning</h2>
+              </header>
+              <section class="about-text">
+                <p>
+                  During the data preprocessing phase for a project focused on predicting customer churn in the banking sector, the dataset presented unique challenges, particularly in handling categorical data with 'Unknown' placeholders. A significant portion of the data for attributes like Education_Level, Marital_Status, and Income_Category contained 'Unknown' values, posing a potential risk to the integrity and reliability of subsequent analyses. To address this, several strategies were employed:
+                </p>
+
+                <p>                
+                 <b>1. Data Cleaning and Placeholder Imputation:</b>  The primary approach was to replace 'Unknown' placeholders with the mode of each categorical column, a widely accepted practice that preserves dataset integrity without introducing substantial bias. Despite considering model imputation using a Decision Tree algorithm, this method was ultimately abandoned due to subpar results, attributed to the dataset's limitations or the intricate interactions between variables. Excluding records with 'Unknown' values was also deemed inappropriate due to the dataset's constrained size, which could have led to biased outcomes.
+                </p>
+                <img class="proImg" src="projectImages/phCount.jpg" alt="Placeholder Count">
+                <p>
+                  <b>2. Feature Encoding:</b> To prepare the dataset for machine learning algorithms, encoding techniques were applied to transform categorical data into a machine-readable format. One Hot Encoding was utilized for nominal data without an inherent order, such as Gender, Marital_Status, and Card_Category, creating binary columns for each category within a feature. Conversely, Label Encoding was employed for ordinal data, where categories possess a natural order, assigning integers that preserve this hierarchy to variables like Education_Level and Income_Category.
+                </p>
+
+                <p>
+                  <b>3. Handling Imbalanced Data with SMOTE:</b> The dataset exhibited a pronounced class imbalance in the Attrition_Flag column, with a significant majority of customers classified as "Existing Customer" compared to "Attrited Customer". To counteract this imbalance and enhance model accuracy, the Synthetic Minority Over-sampling Technique (SMOTE) was implemented. SMOTE generated synthetic samples for the minority class, balancing the class distribution and enabling a more equitable and effective model training process. This intervention was crucial for mitigating the inherent bias towards the majority class and improving the model's predictive performance regarding customer attrition.
+                </p>
+                <img class="proImg" src="projectImages/smot.jpg" alt="SMOT">
+                <p>
+                  These preprocessing steps, from meticulous data cleaning to strategic feature encoding and addressing class imbalance, laid a solid foundation for developing robust predictive models. By ensuring the dataset was clean, well-structured, and balanced, the project set the stage for insightful analyses and effective churn prediction, ultimately enabling targeted customer retention strategies.
+                </p>
+         
+              </section>
+
+              <section class="about-text">
+
+              <p><b> Intial data : </b></p>
+
+              <img class="proImg" src="projectImages/initData.png" alt="Initial Data">
+
+              <p><b> Cleaned data : </b></p>
+
+              <img class="proImg" src="projectImages/cleanData.png" alt="Cleaned Data">
+
+              <p><b> Final data : </b></p>
+
+              <img class="proImg" src="projectImages/finalData.png" alt="Final Data">
+              
+              <p><b>Access to the Code :</b> <a style="display: inline;" target="_blank" href="https://colab.research.google.com/drive/1dtaaFEjfRIeZyOxG0sOV6lrmiFHR_CD9?usp=sharing">Colab Link</a>
+              </p>
+            </section>
+              
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+
+
+      <article class="portfolio" data-page="algorithms">
+
+     
+
+
+
+        <header>
+          <h2 class="h2 article-title">ML Algorithms</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Decision Trees</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Support Vector Machines (SVM)</button>  
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>K-means Clustering</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Decision Trees</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Support Vector Machines (SVM)</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item><id="test">K-means Clustering</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="resume">
+
+            <li class="project-item  active" data-filter-item data-category="all">
+                <header>
+                    <h2 class="h2 article-title">Reason for Choosing these algorithms</h2>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      The selection of Decision Trees, Support Vector Machines (SVM), and K-means Clustering as the primary algorithms for predicting customer churn within the banking sector is strategically motivated by their collective strengths in interpretability, predictive accuracy, and customer segmentation. Decision Trees are particularly valued for their straightforward interpretability and capacity to process both categorical and numerical data efficiently, thereby illuminating key drivers of customer churn. This feature is crucial for identifying actionable intervention points. SVMs are chosen for their exemplary performance in classification challenges, adept at managing the complexity and high dimensionality typical of banking data. Their ability to delineate clear boundaries between churning and retained customers ensures a high level of predictive precision. K-means Clustering complements these predictive models by enabling the identification of inherent customer groupings within the data, based on shared characteristics. This segmentation is instrumental in crafting targeted retention strategies, enhancing the specificity and effectiveness of initiatives aimed at mitigating churn. Collectively, these algorithms form a robust analytical framework capable of not only accurately forecasting churn but also generating deep insights to inform tailored customer retention strategies, thereby addressing churn proactively in a competitive banking environment.
+                    </p>
+          
+                    
+                  </section>
+            </li>   
+
+            
+            <li class="project-item  active" data-filter-item data-category="decision trees">
+                <header>
+                    <h3 class="h3 article-title">Decision Trees</h3>
+                  </header>
+          
+                  <header>
+                    <h4 class="h4 article-title">Overview</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, excepturi. Iure laboriosam voluptas facere laborum corrupti placeat nulla! Porro incidunt consequatur deserunt consectetur neque quis, voluptas unde nobis dignissimos laboriosam sit beatae. Nostrum fuga delectus dolore. Dolorem odit praesentium modi ratione placeat fugiat libero minus, nulla rem natus dolores minima optio ipsa facere nobis sapiente. Doloremque necessitatibus voluptate ducimus aliquam perferendis distinctio, quam alias aspernatur itaque tempore ipsam id voluptatibus, fugiat impedit obcaecati esse ex debitis. Labore cumque ipsam repudiandae! Ut accusantium optio eos reiciendis neque, vitae facere totam corporis doloribus nemo consequuntur aspernatur error recusandae facilis. Deserunt quis libero sequi in labore dolores debitis error porro adipisci omnis laudantium, aperiam excepturi eaque fuga tempore eveniet architecto ex commodi rerum voluptate facere. Quidem consequatur, recusandae ratione provident totam, optio amet, eos asperiores placeat distinctio ipsam. Adipisci eligendi qui nostrum hic odio nihil laborum libero temporibus vero numquam similique, ipsum minus. Quod nihil corporis cumque amet fugit voluptates id consequatur facere ducimus error ipsum accusantium non eius, quasi eaque aliquid culpa vero totam laboriosam! Illum ex quod earum suscipit deleniti dolor et provident ipsa, fugiat nihil expedita temporibus officia! Expedita laudantium vel qui impedit repellat in quis dignissimos! Quidem, in odit.
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Data</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, sed! Ullam suscipit maiores est cum atque impedit? Voluptate eius minus dolore, similique consequuntur alias commodi quaerat distinctio neque maiores, quia facilis et veniam ullam error aut quidem ut dicta modi voluptatum nihil! Voluptas obcaecati debitis maiores facere eum asperiores saepe corporis explicabo illo alias, harum nemo in iusto dolor sint! Molestias quod alias expedita sed quaerat quae perferendis nam, in iusto, recusandae quo, magnam aperiam fugit aspernatur error architecto ipsum. Id nobis autem incidunt quos nisi tenetur in reprehenderit dolores minima quo. Reprehenderit, sit fuga. Nostrum natus, nisi qui assumenda ipsa velit impedit asperiores nam facilis nemo earum rerum optio odit quo eius laborum facere aliquid recusandae, quibusdam omnis? Tenetur eaque aut nam quas tempora dolorum, sit cum nobis, blanditiis aliquid, porro animi odio vero quasi voluptate libero at. Illo voluptate fugiat necessitatibus ipsam veritatis ad eligendi quisquam culpa voluptatum cumque ab molestiae repellendus accusamus vel, dolores adipisci sequi nam? Officiis cumque, maxime quia eius distinctio odio rem velit neque repellat facere repudiandae aperiam assumenda incidunt mollitia porro ullam nulla obcaecati eligendi aliquid. Eligendi, numquam! Nobis, natus! Magni quis eos, unde, doloremque iusto minima nesciunt ducimus molestias laudantium rerum numquam!
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Code</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est quasi iusto ab quo veritatis pariatur et porro dolores, odio nostrum placeat voluptate unde architecto mollitia harum inventore quam repellendus fugit voluptatem! Libero fugiat distinctio ea enim soluta quaerat a cum repudiandae eligendi voluptate dolorem deleniti temporibus expedita id, autem natus quia molestias sunt. Dolorem, praesentium? Soluta odio sapiente suscipit omnis porro illum, est iste sunt a. Provident soluta fuga quis consequatur, illo, nostrum minus sequi iure voluptas nobis doloremque dolorem temporibus veritatis aperiam nihil. Eos odio veniam quam, libero nihil eius. Magni, consectetur eaque exercitationem labore, expedita ducimus unde obcaecati aut eius excepturi quae deleniti nulla optio ea suscipit recusandae soluta molestiae voluptatum ad, adipisci odit asperiores vero officia quas? Dignissimos veritatis ipsa nam.
+                    </p>
+          
+
+                      <h6 class="h6"><a href="https://www.google.com/">Click here to see the code</a></h6>
+ 
+
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Results</h4>
+                  </header>
+          
+                 
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fuga corrupti aperiam, pariatur quo unde porro consequatur impedit repellat soluta iure at ducimus culpa repudiandae iusto quis sint, rerum ut voluptatem. Vero ipsa voluptate ullam, perferendis animi atque magnam impedit cupiditate, amet incidunt assumenda quis non ex. Doloribus molestiae praesentium sed? Consequuntur aspernatur tempore voluptatem exercitationem nulla voluptatibus accusamus eligendi, mollitia consequatur alias ratione fugit adipisci aliquam nesciunt dolore. Voluptate repellat quas necessitatibus mollitia dignissimos officia. Modi, adipisci nobis iusto dolores vero distinctio officia saepe deleniti inventore placeat officiis incidunt cumque aliquam consequatur, sed eaque recusandae maxime nisi blanditiis nemo quaerat itaque a maiores? Porro itaque magnam laboriosam dolores hic culpa pariatur assumenda magni repellat nisi sint expedita, vel quaerat deleniti veritatis, tenetur vitae laborum soluta est aut consequatur voluptatibus! Voluptatibus, odit architecto, numquam enim tempore fuga provident veniam cumque, quo amet doloremque saepe? Repellat tenetur, optio sed quasi sapiente culpa aspernatur expedita facere doloribus tempore perferendis tempora incidunt aliquam similique, aliquid sunt qui ea. Repellendus voluptatem ut saepe. Odit optio non minus animi ullam voluptatibus placeat. Deleniti architecto quas adipisci impedit quasi aspernatur consequatur fuga quibusdam, cupiditate nostrum error et esse commodi quo ducimus rem saepe! Accusantium cumque aspernatur iste non optio totam commodi neque, reprehenderit, minus dolores ut tempore natus maiores ex ratione. Asperiores ratione corporis quam quo perferendis dolorum in, excepturi iure vel tempora itaque quidem eaque, optio quaerat ipsam doloribus dolores cum tenetur magnam. Illo dicta doloribus, officia hic repellendus ullam, dolorum veritatis quaerat assumenda, maxime maiores obcaecati. Doloribus adipisci modi illum cum perferendis culpa eaque facilis inventore voluptates eveniet autem, non fuga error. A esse iste praesentium ex ullam quis consequuntur voluptatum aspernatur ratione facilis sapiente, consectetur quidem molestias rerum quibusdam nesciunt explicabo eos! Esse sit ea neque rerum commodi nihil voluptatem ex error! Veritatis?
+                    </p>
+          
+                    
+                  </section>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="support vector machines (svm)">
+                <header>
+                    <h2 class="h2 article-title">Support Vector Machines (SVM)</h2>
+                  </header>
+          
+                  <header>
+                    <h4 class="h4 article-title">Overview</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, excepturi. Iure laboriosam voluptas facere laborum corrupti placeat nulla! Porro incidunt consequatur deserunt consectetur neque quis, voluptas unde nobis dignissimos laboriosam sit beatae. Nostrum fuga delectus dolore. Dolorem odit praesentium modi ratione placeat fugiat libero minus, nulla rem natus dolores minima optio ipsa facere nobis sapiente. Doloremque necessitatibus voluptate ducimus aliquam perferendis distinctio, quam alias aspernatur itaque tempore ipsam id voluptatibus, fugiat impedit obcaecati esse ex debitis. Labore cumque ipsam repudiandae! Ut accusantium optio eos reiciendis neque, vitae facere totam corporis doloribus nemo consequuntur aspernatur error recusandae facilis. Deserunt quis libero sequi in labore dolores debitis error porro adipisci omnis laudantium, aperiam excepturi eaque fuga tempore eveniet architecto ex commodi rerum voluptate facere. Quidem consequatur, recusandae ratione provident totam, optio amet, eos asperiores placeat distinctio ipsam. Adipisci eligendi qui nostrum hic odio nihil laborum libero temporibus vero numquam similique, ipsum minus. Quod nihil corporis cumque amet fugit voluptates id consequatur facere ducimus error ipsum accusantium non eius, quasi eaque aliquid culpa vero totam laboriosam! Illum ex quod earum suscipit deleniti dolor et provident ipsa, fugiat nihil expedita temporibus officia! Expedita laudantium vel qui impedit repellat in quis dignissimos! Quidem, in odit.
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Data</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, sed! Ullam suscipit maiores est cum atque impedit? Voluptate eius minus dolore, similique consequuntur alias commodi quaerat distinctio neque maiores, quia facilis et veniam ullam error aut quidem ut dicta modi voluptatum nihil! Voluptas obcaecati debitis maiores facere eum asperiores saepe corporis explicabo illo alias, harum nemo in iusto dolor sint! Molestias quod alias expedita sed quaerat quae perferendis nam, in iusto, recusandae quo, magnam aperiam fugit aspernatur error architecto ipsum. Id nobis autem incidunt quos nisi tenetur in reprehenderit dolores minima quo. Reprehenderit, sit fuga. Nostrum natus, nisi qui assumenda ipsa velit impedit asperiores nam facilis nemo earum rerum optio odit quo eius laborum facere aliquid recusandae, quibusdam omnis? Tenetur eaque aut nam quas tempora dolorum, sit cum nobis, blanditiis aliquid, porro animi odio vero quasi voluptate libero at. Illo voluptate fugiat necessitatibus ipsam veritatis ad eligendi quisquam culpa voluptatum cumque ab molestiae repellendus accusamus vel, dolores adipisci sequi nam? Officiis cumque, maxime quia eius distinctio odio rem velit neque repellat facere repudiandae aperiam assumenda incidunt mollitia porro ullam nulla obcaecati eligendi aliquid. Eligendi, numquam! Nobis, natus! Magni quis eos, unde, doloremque iusto minima nesciunt ducimus molestias laudantium rerum numquam!
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Code</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est quasi iusto ab quo veritatis pariatur et porro dolores, odio nostrum placeat voluptate unde architecto mollitia harum inventore quam repellendus fugit voluptatem! Libero fugiat distinctio ea enim soluta quaerat a cum repudiandae eligendi voluptate dolorem deleniti temporibus expedita id, autem natus quia molestias sunt. Dolorem, praesentium? Soluta odio sapiente suscipit omnis porro illum, est iste sunt a. Provident soluta fuga quis consequatur, illo, nostrum minus sequi iure voluptas nobis doloremque dolorem temporibus veritatis aperiam nihil. Eos odio veniam quam, libero nihil eius. Magni, consectetur eaque exercitationem labore, expedita ducimus unde obcaecati aut eius excepturi quae deleniti nulla optio ea suscipit recusandae soluta molestiae voluptatum ad, adipisci odit asperiores vero officia quas? Dignissimos veritatis ipsa nam.
+                    </p>
+          
+
+                      <h6 class="h6"><a href="https://www.google.com/">Click here to see the code</a></h6>
+ 
+
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Results</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fuga corrupti aperiam, pariatur quo unde porro consequatur impedit repellat soluta iure at ducimus culpa repudiandae iusto quis sint, rerum ut voluptatem. Vero ipsa voluptate ullam, perferendis animi atque magnam impedit cupiditate, amet incidunt assumenda quis non ex. Doloribus molestiae praesentium sed? Consequuntur aspernatur tempore voluptatem exercitationem nulla voluptatibus accusamus eligendi, mollitia consequatur alias ratione fugit adipisci aliquam nesciunt dolore. Voluptate repellat quas necessitatibus mollitia dignissimos officia. Modi, adipisci nobis iusto dolores vero distinctio officia saepe deleniti inventore placeat officiis incidunt cumque aliquam consequatur, sed eaque recusandae maxime nisi blanditiis nemo quaerat itaque a maiores? Porro itaque magnam laboriosam dolores hic culpa pariatur assumenda magni repellat nisi sint expedita, vel quaerat deleniti veritatis, tenetur vitae laborum soluta est aut consequatur voluptatibus! Voluptatibus, odit architecto, numquam enim tempore fuga provident veniam cumque, quo amet doloremque saepe? Repellat tenetur, optio sed quasi sapiente culpa aspernatur expedita facere doloribus tempore perferendis tempora incidunt aliquam similique, aliquid sunt qui ea. Repellendus voluptatem ut saepe. Odit optio non minus animi ullam voluptatibus placeat. Deleniti architecto quas adipisci impedit quasi aspernatur consequatur fuga quibusdam, cupiditate nostrum error et esse commodi quo ducimus rem saepe! Accusantium cumque aspernatur iste non optio totam commodi neque, reprehenderit, minus dolores ut tempore natus maiores ex ratione. Asperiores ratione corporis quam quo perferendis dolorum in, excepturi iure vel tempora itaque quidem eaque, optio quaerat ipsam doloribus dolores cum tenetur magnam. Illo dicta doloribus, officia hic repellendus ullam, dolorum veritatis quaerat assumenda, maxime maiores obcaecati. Doloribus adipisci modi illum cum perferendis culpa eaque facilis inventore voluptates eveniet autem, non fuga error. A esse iste praesentium ex ullam quis consequuntur voluptatum aspernatur ratione facilis sapiente, consectetur quidem molestias rerum quibusdam nesciunt explicabo eos! Esse sit ea neque rerum commodi nihil voluptatem ex error! Veritatis?
+                    </p>
+          
+                    
+                  </section>
+            </li>           
+            
+            <li class="project-item  active" data-filter-item data-category="k-means clustering">
+                <header>
+                    <h2 class="h2 article-title">K-means Clustering</h2>
+                  </header>
+          
+                  <header>
+                    <h4 class="h4 article-title">Overview</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, excepturi. Iure laboriosam voluptas facere laborum corrupti placeat nulla! Porro incidunt consequatur deserunt consectetur neque quis, voluptas unde nobis dignissimos laboriosam sit beatae. Nostrum fuga delectus dolore. Dolorem odit praesentium modi ratione placeat fugiat libero minus, nulla rem natus dolores minima optio ipsa facere nobis sapiente. Doloremque necessitatibus voluptate ducimus aliquam perferendis distinctio, quam alias aspernatur itaque tempore ipsam id voluptatibus, fugiat impedit obcaecati esse ex debitis. Labore cumque ipsam repudiandae! Ut accusantium optio eos reiciendis neque, vitae facere totam corporis doloribus nemo consequuntur aspernatur error recusandae facilis. Deserunt quis libero sequi in labore dolores debitis error porro adipisci omnis laudantium, aperiam excepturi eaque fuga tempore eveniet architecto ex commodi rerum voluptate facere. Quidem consequatur, recusandae ratione provident totam, optio amet, eos asperiores placeat distinctio ipsam. Adipisci eligendi qui nostrum hic odio nihil laborum libero temporibus vero numquam similique, ipsum minus. Quod nihil corporis cumque amet fugit voluptates id consequatur facere ducimus error ipsum accusantium non eius, quasi eaque aliquid culpa vero totam laboriosam! Illum ex quod earum suscipit deleniti dolor et provident ipsa, fugiat nihil expedita temporibus officia! Expedita laudantium vel qui impedit repellat in quis dignissimos! Quidem, in odit.
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Data</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, sed! Ullam suscipit maiores est cum atque impedit? Voluptate eius minus dolore, similique consequuntur alias commodi quaerat distinctio neque maiores, quia facilis et veniam ullam error aut quidem ut dicta modi voluptatum nihil! Voluptas obcaecati debitis maiores facere eum asperiores saepe corporis explicabo illo alias, harum nemo in iusto dolor sint! Molestias quod alias expedita sed quaerat quae perferendis nam, in iusto, recusandae quo, magnam aperiam fugit aspernatur error architecto ipsum. Id nobis autem incidunt quos nisi tenetur in reprehenderit dolores minima quo. Reprehenderit, sit fuga. Nostrum natus, nisi qui assumenda ipsa velit impedit asperiores nam facilis nemo earum rerum optio odit quo eius laborum facere aliquid recusandae, quibusdam omnis? Tenetur eaque aut nam quas tempora dolorum, sit cum nobis, blanditiis aliquid, porro animi odio vero quasi voluptate libero at. Illo voluptate fugiat necessitatibus ipsam veritatis ad eligendi quisquam culpa voluptatum cumque ab molestiae repellendus accusamus vel, dolores adipisci sequi nam? Officiis cumque, maxime quia eius distinctio odio rem velit neque repellat facere repudiandae aperiam assumenda incidunt mollitia porro ullam nulla obcaecati eligendi aliquid. Eligendi, numquam! Nobis, natus! Magni quis eos, unde, doloremque iusto minima nesciunt ducimus molestias laudantium rerum numquam!
+                    </p>
+          
+                    
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Code</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est quasi iusto ab quo veritatis pariatur et porro dolores, odio nostrum placeat voluptate unde architecto mollitia harum inventore quam repellendus fugit voluptatem! Libero fugiat distinctio ea enim soluta quaerat a cum repudiandae eligendi voluptate dolorem deleniti temporibus expedita id, autem natus quia molestias sunt. Dolorem, praesentium? Soluta odio sapiente suscipit omnis porro illum, est iste sunt a. Provident soluta fuga quis consequatur, illo, nostrum minus sequi iure voluptas nobis doloremque dolorem temporibus veritatis aperiam nihil. Eos odio veniam quam, libero nihil eius. Magni, consectetur eaque exercitationem labore, expedita ducimus unde obcaecati aut eius excepturi quae deleniti nulla optio ea suscipit recusandae soluta molestiae voluptatum ad, adipisci odit asperiores vero officia quas? Dignissimos veritatis ipsa nam.
+                    </p>
+          
+
+                      <h6 class="h6"><a href="https://www.google.com/">Click here to see the code</a></h6>
+ 
+
+                  </section>
+
+                  <header>
+                    <h4 class="h4 article-title">Results</h4>
+                  </header>
+          
+                  <section class="about-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fuga corrupti aperiam, pariatur quo unde porro consequatur impedit repellat soluta iure at ducimus culpa repudiandae iusto quis sint, rerum ut voluptatem. Vero ipsa voluptate ullam, perferendis animi atque magnam impedit cupiditate, amet incidunt assumenda quis non ex. Doloribus molestiae praesentium sed? Consequuntur aspernatur tempore voluptatem exercitationem nulla voluptatibus accusamus eligendi, mollitia consequatur alias ratione fugit adipisci aliquam nesciunt dolore. Voluptate repellat quas necessitatibus mollitia dignissimos officia. Modi, adipisci nobis iusto dolores vero distinctio officia saepe deleniti inventore placeat officiis incidunt cumque aliquam consequatur, sed eaque recusandae maxime nisi blanditiis nemo quaerat itaque a maiores? Porro itaque magnam laboriosam dolores hic culpa pariatur assumenda magni repellat nisi sint expedita, vel quaerat deleniti veritatis, tenetur vitae laborum soluta est aut consequatur voluptatibus! Voluptatibus, odit architecto, numquam enim tempore fuga provident veniam cumque, quo amet doloremque saepe? Repellat tenetur, optio sed quasi sapiente culpa aspernatur expedita facere doloribus tempore perferendis tempora incidunt aliquam similique, aliquid sunt qui ea. Repellendus voluptatem ut saepe. Odit optio non minus animi ullam voluptatibus placeat. Deleniti architecto quas adipisci impedit quasi aspernatur consequatur fuga quibusdam, cupiditate nostrum error et esse commodi quo ducimus rem saepe! Accusantium cumque aspernatur iste non optio totam commodi neque, reprehenderit, minus dolores ut tempore natus maiores ex ratione. Asperiores ratione corporis quam quo perferendis dolorum in, excepturi iure vel tempora itaque quidem eaque, optio quaerat ipsam doloribus dolores cum tenetur magnam. Illo dicta doloribus, officia hic repellendus ullam, dolorum veritatis quaerat assumenda, maxime maiores obcaecati. Doloribus adipisci modi illum cum perferendis culpa eaque facilis inventore voluptates eveniet autem, non fuga error. A esse iste praesentium ex ullam quis consequuntur voluptatum aspernatur ratione facilis sapiente, consectetur quidem molestias rerum quibusdam nesciunt explicabo eos! Esse sit ea neque rerum commodi nihil voluptatem ex error! Veritatis?
+                    </p>
+          
+                    
+                  </section>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certifications
+      -->
+
+      <!-- <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="conclusion">
+
+        <header>
+          <h2 class="h2 article-title">Conclusion</h2>
+        </header>
+  
+          <section class="about-text">
+            <p>
+              Understanding customer churn in the banking sector transcends the traditional analysis of data points, revealing the profound impact of personalized engagement and customer satisfaction on loyalty. The exploration into the dynamics of customer relationships with their banks has illuminated the importance of recognizing individual customer journeys. Insights from this project emphasize the need for financial institutions to not only respond to immediate customer needs but also to anticipate future expectations, fostering a trust-based relationship.
+            </p>
+
+            <p>
+              The project's findings highlight a critical shift towards a more relational approach in banking, where every interaction is an opportunity to affirm the customer’s trust. It advocates for a proactive engagement strategy, emphasizing the necessity of integrating customer feedback into service offerings. The essence of reducing churn, as revealed, lies in creating banking experiences that are not only efficient but also deeply resonant with customers’ varied needs.
+            </p>
+            
+            <p>
+              In essence, mitigating churn requires a balance between innovative, data-informed strategies and a genuine commitment to customer-centric practices. This approach sets a new standard for excellence in customer retention, suggesting that the future of banking lies in building meaningful, lasting relationships with customers, thereby ensuring loyalty in an increasingly competitive digital landscape.
+            </p>
+  
+            
+          </section>
+
+
+          <header>
+            <h2 class="h3 article-title">Results</h2>
+          </header>
+  
+          <section class="about-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laboriosam nam numquam voluptatem est incidunt deleniti. Aliquid, perspiciatis! Fuga perferendis voluptate minus voluptatibus praesentium cum ratione maxime maiores libero perspiciatis, sunt distinctio dolor mollitia ut quae magnam ullam ex quas sed nobis totam recusandae qui corrupti quis! Esse, laboriosam quo. Eligendi autem quia sunt, placeat laboriosam fugiat nihil quis voluptate itaque saepe cumque deserunt explicabo facilis, sapiente rem iste blanditiis id, ut pariatur! Dignissimos nostrum voluptate, blanditiis mollitia id saepe sunt dolor provident laborum dolorum aliquam recusandae doloremque temporibus omnis molestias itaque nihil similique at suscipit quisquam vitae harum cupiditate! Fuga, distinctio recusandae blanditiis atque dolorum, ratione non possimus aliquid tempora est praesentium ab doloremque, cumque voluptatibus quia excepturi vero placeat? Dolorum obcaecati voluptatem quod, facilis commodi quia nobis amet labore iusto pariatur cupiditate est ducimus esse dolore sed laborum molestias, atque consequatur harum neque voluptates, quos impedit dicta. Natus deleniti laboriosam doloribus quis nulla ratione, saepe dolores perspiciatis expedita eaque consequuntur cum ea pariatur accusamus enim delectus corporis sapiente harum a deserunt. Consectetur dolorum sint ducimus aperiam velit corrupti consequatur quos, nemo, asperiores, nulla voluptatum sequi dolor? Exercitationem ipsa nesciunt eligendi, illo vitae eius quidem a veritatis ad maiores, deserunt cum ducimus quis ab minima doloribus, commodi voluptate adipisci natus enim itaque sunt. Rem, esse minus rerum ea eos deleniti eaque nobis placeat temporibus adipisci aut harum eveniet magnam aspernatur cupiditate voluptate ut laborum repellendus asperiores quod commodi fuga quasi cumque laudantium. Error, impedit excepturi hic in dolores vitae, sapiente earum iste possimus neque tenetur? Iste nesciunt rerum nostrum quo assumenda atque ab voluptas corrupti veniam voluptatem quaerat voluptatum aut alias cupiditate, iure at odio reprehenderit consequatur temporibus facilis maiores distinctio commodi nihil hic. Ea deserunt assumenda perspiciatis velit vero, vitae at consequuntur ullam a aut dolor eos molestiae.
+            </p>
+  
+            
+          </section>
+
+          <header>
+            <h2 class="h3 article-title">Future Work</h2>
+          </header>
+  
+          <section class="about-text">
+            <p>
+              Future research in the realm of banking customer churn should focus on leveraging advanced analytics and emerging technologies to enhance predictive models and retention strategies. By incorporating detailed behavioral data and real-time analytics through artificial intelligence and machine learning, financial institutions can gain deeper insights into customer behaviors and preferences. This approach allows for proactive identification of churn risks and the delivery of personalized interventions, significantly improving customer satisfaction and loyalty. Additionally, analyzing customer sentiment from social media and feedback channels offers a nuanced understanding of customer experiences, enriching the data used to predict churn.
+            </p>
+
+            <p>
+              Exploring the effects of financial wellness programs on customer retention presents another promising avenue. Such programs could deepen customer engagement and loyalty by aligning banking services more closely with individual financial goals. Moreover, considering the impact of broader industry trends, including regulatory changes and technological advancements, will be crucial in adapting retention strategies to the evolving banking landscape. 
+            </p>
+
+            <p>
+              In essence, the future work should aim to blend sophisticated data analysis with a keen understanding of customer needs, creating a more dynamic and responsive banking experience. This balanced approach promises not only to mitigate churn but also to foster a banking environment where customer loyalty and satisfaction are paramount, ensuring long-term success in a competitive digital marketplace.
+            </p>
+  
+            
+          </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
